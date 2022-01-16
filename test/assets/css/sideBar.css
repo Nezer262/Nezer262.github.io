@@ -1,0 +1,90 @@
+.sideBar {
+    width: 300px;
+
+    padding: 30px 0;
+
+    float: right;
+}
+
+.wait-to-call {
+    position: relative;
+    font-size: 28px;
+
+    color: #445;
+}
+
+.wait-to-call::before {
+    content: "";
+    position: absolute;
+
+    left: -40px;
+
+    width: 32px;
+    height: 32px;
+    background-image: url(../img/message.png);
+}
+
+.filter__btn {
+    color: #fff;
+    font-size: 24px;
+    padding: 18px 40px;
+    margin: 20px 0;
+
+    background-color: #a145b2;
+    border-radius: 30px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.filter__name {
+    font-size: 30px;
+
+    margin: 25px 0;
+}
+
+.filter__box {
+    display: flex;
+
+    flex-wrap: wrap;
+    align-items: center;
+
+    list-style: none;
+}
+
+.filter__box li {
+    display: flex;
+    width: 50%;
+    padding: 10px 10px;
+
+    font-size: 25px;
+    color: #445;
+
+    align-items: center;
+    justify-content: center;
+    align-self: stretch;
+
+    cursor: pointer;
+}
+
+.filter__box li:hover {
+    color: #fff;
+
+    background-color: #a145b2;
+    border-radius: 5px;
+} 
+
+.btn {
+    color: #445;
+    font-size: 32px;
+
+    margin: 45px 0 0 55px;
+
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: #a145b2;
+    transition: .3s;
+}
