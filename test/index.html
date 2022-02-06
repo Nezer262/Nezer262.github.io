@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700;800&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -25,7 +28,6 @@
                     <button class="btn-item">ДОБАВИТЬ АНКЕТУ</button>
                 </div>
             </div>
-
             <div class="nav-menu">
                 <ul class="menu">
                     <li><a href="#/individuals">ИНДИВИДУАЛКИ</a></li>
@@ -34,24 +36,13 @@
                     <li><a href="#/real">С РЕАЛЬНЫМИ ФОТО</a></li>
                 </ul>
             </div>
-
-            <div class="nav-choice">
-                <div class="choice__title">Для покупки напишите на Email<br>sandradini@mail.ru<br> Скидка до конца недели -25%</div>
-                <ul class="menu">
-                    <li><a href="#/departure">НА ВЫЕЗД</a></li>
-                    <li><a href="#/apartment">С АПАРТАМЕНТАМИ</a></li>
-                    <li><a href="#/cheap">ДЕШЁВЫЕ</a></li>
-                </ul>
-            </div>
         </div>
     </header>
-
     <main>
         <div class="main__wrap">
             <div class="sideBar">
                 <div class="wait-to-call">Сейчас ждут звонка (3)</div>
                 <button class="filter__btn">Выберите район</button>
-
                 <p class="filter__name">Цена</p>
                 <ul class="filter__box">
                     <li>Дешёвые</li>
@@ -61,7 +52,6 @@
                     <li>3500-4000</li>
                     <li>Элитные</li>
                 </ul>
-
                 <p class="filter__name">Возраст</p>
                 <ul class="filter__box">
                     <li>Молодые</li>
@@ -69,70 +59,39 @@
                     <li>25-30 лет</li>
                     <li>30-35 лет</li>
                     <li>35-40 лет</li>
-                    <li>Зрелые</li>
                 </ul>
-
-                <p class="filter__name">Предпочтение</p>
-                <ul class="filter__box">
-                    <li>Секс классика</li>
-                    <li>Минет в презервативе</li>
-                    <li>Секс анальный</li>
-                    <li>Секс лейсбийский</li>
-                    <li>Секс втроём</li>
-                    <li>Секс в машине</li>
-                </ul>
-
-                <p class="filter__name">Телосложение</p>
-                <ul class="filter__box">
-                    <li>Худая</li>
-                    <li>Стройная</li>
-                    <li>Спортивная</li>
-                    <li>Полная</li>
-                </ul>
-
-                <p class="filter__name">Цвет волос</p>
-                <ul class="filter__box">
-                    <li>Блондинка</li>
-                    <li>Брюнетка</li>
-                    <li>Рыжая</li>
-                    <li>Русая</li>
-                    <li>Шатенка</li>
-                </ul>
-
-                <p class="filter__name">Национальность</p>
-                <ul class="filter__box">
-                    <li>Русская</li>
-                    <li>Азиатка</li>
-                    <li>Украинка</li>
-                    <li>Афро</li>
-                </ul>
-
-                <p class="filter__name">Размер груди</p>
-                <ul class="filter__box">
-                    <li>0</li>
-                    <li>1</li>
-                    <li>2</li>
-                    <li>3</li>
-                    <li>4</li>
-                    <li>5</li>
-                </ul>
-
                 <button class="btn">Фильтровать</button>
             </div>
             <div class="content" id="root"></div>
-
-                <button href="#" class="btn-catalog">Все анкеты</button>
-            </div>
+                <button href="#" class="btn-catalog" id="btn">Все анкеты</button>
+            
+            <!-- <div class="authorization">
+                <form>
+                    <input checked="" id="signin" name="action" type="radio" value="signin">
+                    <label for="signin">Sign in</label>
+                    <input id="signup" name="action" type="radio" value="signup">
+                    <label for="signup">Sign up</label>
+                    <input id="reset" name="action" type="radio" value="reset">
+                    <label for="reset">Reset</label>
+                    <div id="wrapper">
+                        <div id="arrow"></div>
+                        <input id="email" placeholder="Email" type="text">
+                        <input id="pass" placeholder="Password" type="password">
+                        <input id="repass" placeholder="Repeat password" type="password">
+                    </div>
+                    <button class="btn-autho" type="submit">
+                        <span>
+                            Reset password
+                            <br>
+                            Sign in
+                            <br>
+                            Sign up
+                        </span>
+                    </button>
+                </form>
+            </div> -->
         </div>
     </main>
-
-    <footer>
-        <div class="footer__wrap">
-            <a href="#" class="up">Наверх</a>
-            <div class="footer__title">2020 СКРИПТ ИНТИМ УСЛУГ</div>
-            <div class="footer__text">Внимание! Данный сайт предназначен для общения и поиска людей по интересам, и только для лиц совершеннолетнего возвраста.</div>
-        </div>
-    </footer>
     <script src="index.js" type="module"></script>
 </body>
 </html>
